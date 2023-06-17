@@ -1,0 +1,63 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+nav.sticky {
+  background: #fff;
+  padding: 20px 100px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+#content {
+  background-image: url(Berkas/IMG_20221022_173056.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: red;
+  height: 550px;
+  width: 1300px;
+  margin: 100px 20px;
+}
+#quality {
+  display: grid;
+  font-size: 15px;
+  font-weight: 800;
+  place-items: center;
+  width: 90px;
+  height: 40px;
+  background-color: white;
+}
+#advanced {
+  column-gap: 20px;
+  align-items: center;
+  display: flex;
+}
+#rating,
+#release {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+#release {
+  margin-left: 20px;
+}
+#btn-watch {
+  color: black;
+  font-size: 20px;
+  display: grid;
+  place-items: center;
+  width: 150px;
+  height: 50px;
+  background-color: white;
+}
+#watch {
+  text-decoration: none;
+}
+#icons-play {
+    place-items: center;
+}
